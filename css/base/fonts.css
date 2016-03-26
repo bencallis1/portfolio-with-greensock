@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'BrandonGrotesqueThin';
+  src: url("../../fonts/brandongrotesque/Brandon_thin.eot");
+  src: url('../../fonts/brandongrotesque/Brandon_thin.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BrandonGrotesqueLight';
+  src: url("../../fonts/brandongrotesque/Brandon_light.eot");
+  src: url('../../fonts/brandongrotesque/Brandon_light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BrandonGrotesqueMedium';
+  src: url("../../fonts/brandongrotesque/Brandon_med.eot");
+  src: url('../../fonts/brandongrotesque/Brandon_med.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BrandonGrotesqueBold';
+  src: url("../../fonts/brandongrotesque/Brandon_bld_it.eot");
+  src: url('../../fonts/brandongrotesque/Brandon_bld.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BrandonGrotesqueBlack';
+  src: url("../../fonts/brandongrotesque/Brandon_blk.eot");
+  src: url('../../fonts/brandongrotesque/Brandon_blk.otf') format('opentype');
+}
+h1, h2, h3, h4, h5, h6, p, a {
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'BrandonGrotesqueBlack';
+}
+p {
+  font-family: 'BrandonGrotesqueBold';
+}
+h1 {
+  font-size: 100px;
+}
