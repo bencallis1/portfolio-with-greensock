@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ben Callis is a web developer who specializes in UI / UX design, Web development & motion graphics">
+    <meta property="og:title" content="bencallis1" />
+    <meta property="og:type" content="design" />
+    <meta property="og:image" content="img/og-image.jpg" />
+
+    <title> Ben Callis - Official Site </title>
+
+    <!-- CSS -->
+    <link href="css/animsition.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/effects.css" rel="stylesheet">
+    <link href="css/fullpage.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+    <link rel="shortcut icon" href="img/favicon.png" />
+  </head>
+
+  <body>
+
+    <div class="animsition">
+
+        <div class="top-white-bar"></div>
+        <div class="bottom-white-bar"></div>
+        <div class="left-white-bar"></div>
+        <div class="right-white-bar"></div>
+
+        <div class="buttons-header active">
+          <button class="navigation-trigger">
+            <span class="icon-container">
+              <span class="navigation-line navigation-line01"></span>
+              <span class="navigation-line navigation-line02"></span>
+              <span class="navigation-line navigation-line03"></span>
+              <span class="navigation-line navigation-line04"></span>
+            </span>
+          </button>
+        </div>
+
+        <aside class="overlay">
+          <div class="navigation-bg-home"></div>
+          <div class="navigation-bg-projects"></div>
+          <div class="navigation-bg-about"></div>
+          <div class="navigation-bg-contacts"></div>
+
+          <div class="navigation-content">
+            <a href="index.html" class="animsition-link navigation-trigger-home">WELCOME</a>
+            <div class="simple-line" style="margin: 0 auto; opacity: 0.5;"></div>
+            <a href="about.html" class="animsition-link navigation-trigger-about">ABOUT ME</a>
+            <div class="simple-line" style="margin: 0 auto; opacity: 0.5;"></div>
+            <a href="projects.html" class="animsition-link navigation-trigger-projects">PROJECTS</a>
+            <div class="simple-line" style="margin: 0 auto; opacity: 0.5; width"></div>
+            <a href="contacts.html" class="animsition-link navigation-trigger-contacts">CONTACTS</a>
+          </div>
+        </aside>
+
+<div class="home-background"></div>
+
+<a href="about.html" class="animsition-link">
+    <div id="logo-animation" class="home-logo"></div></a>
+
+<a href="about.html" ><div id="logo-animation" class="home-responsive-logo"></div></a>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/animsition.js"></script>
+    <script src="js/scrollReveal.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/backstretch.js"></script>
+    <script src="js/sprite.js"></script>
+    <script src="js/custom.js"></script>
+        <script>
+    //logo animation
+    var scrollUp = (function () {
+      var timerId;
+
+      return function (height, times, element) {
+        var i = 0;
+        timerId = setInterval(function () {
+          if (i > times)
+            i = 141;
+          element.style.backgroundPosition = "0px -" + i * height + 'px';
+          i++;
+
+        }, 20);
+      };
+
+    })()
+
+    $(window).on('load', function() {
+    setTimeout(function() {
+      scrollUp(141, 141, document.getElementById('logo-animation'))
+    }, 800);;
+    });
+    </script>
+  </body>
+</html>
