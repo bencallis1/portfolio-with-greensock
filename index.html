@@ -24,18 +24,16 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="img/icons/favicon.png" />
   </head>
 
   <body>
 
     <div class="animsition">
-
         <div class="top-white-bar"></div>
         <div class="bottom-white-bar"></div>
         <div class="left-white-bar"></div>
         <div class="right-white-bar"></div>
-
         <div class="buttons-header active">
           <button class="navigation-trigger">
             <span class="icon-container">
@@ -75,34 +73,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/animsition.js"></script>
-    <script src="js/scrollReveal.js"></script>
-    <script src="js/fullpage.js"></script>
-    <script src="js/backstretch.js"></script>
-    <script src="js/sprite.js"></script>
     <script src="js/custom.js"></script>
-        <script>
-    //logo animation
-    var scrollUp = (function () {
-      var timerId;
 
-      return function (height, times, element) {
-        var i = 0;
-        timerId = setInterval(function () {
-          if (i > times)
-            i = 141;
-          element.style.backgroundPosition = "0px -" + i * height + 'px';
-          i++;
-
-        }, 20);
-      };
-
-    })()
-
-    $(window).on('load', function() {
-    setTimeout(function() {
-      scrollUp(141, 141, document.getElementById('logo-animation'))
-    }, 800);;
-    });
-    </script>
   </body>
 </html>

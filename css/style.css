@@ -49,7 +49,7 @@ img.img-responsive {
   width: 146px;
   margin-top: -7px;
   margin-left: -73px;
-  background-image: url("../img/loader.png");
+  background-image: url("../img/icons/loader.png");
 }
 
 /*
@@ -125,7 +125,7 @@ img.img-responsive {
   left: 50%;
   margin-top: -15px;
   margin-left: -15px;
-  background-image: url("../img/arrow-down.png");
+  background-image: url("../img/icons/arrow-down.png");
   background-size: cover;
 }
 .next-project {
@@ -136,7 +136,7 @@ img.img-responsive {
   right: 60px;
   margin-top: -15px;
   margin-left: -15px;
-  background-image: url("../img/arrow-right.png");
+  background-image: url("../img/icons/arrow-right.png");
   background-size: cover;
   z-index: 9999;
 }
@@ -149,7 +149,7 @@ img.img-responsive {
   left: 160px;
   margin-top: -15px;
   margin-left: -15px;
-  background-image: url("../img/arrow-left.png");
+  background-image: url("../img/icons/arrow-left.png");
   background-size: cover;
   z-index: 9999;
 }
@@ -854,7 +854,7 @@ p.career-client-mansion {
   background-attachment: fixed;
 }
 #contacts-first-section {
-  background-image: url('../img/contacts.jpg');
+  background-image: url('../img/icons/contacts.jpg');
 }
 #contacts-second-section {
   background-image: url('../img/about2.jpg');
