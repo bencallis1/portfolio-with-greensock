@@ -6,4 +6,5 @@ TweenMax.from(".bottom-white-bar",.5, {opacity:0,scale:0});
 TweenMax.from(".left-white-bar",.35, {opacity:0,scale:0});
 TweenMax.from(".right-white-bar",.35, {opacity:0,scale:0});
 TweenMax.from(".top-white-bar",.5, {opacity:0,scale:0});
+TweenMax.staggerFrom(".home-background",1.5, {opacity:0, scale:0,  ease: Back.easeOut}, 0.1);
 

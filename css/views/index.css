@@ -40,3 +40,60 @@
         display: none;
     }
 }
+
+
+/*
+  HOMEPAGE
+===================== */
+
+.home-background {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #ccc;
+    top: 0;
+    left: 0;
+    background-image: url('../img/about2.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: fixed;
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home-logo {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin-top: -72px;
+    margin-right: -200px;
+    width: 400px;
+    height: 141px;
+    background-image: url("../img/logo-animated.png");
+    background-repeat: no-repeat;
+}
+.home-responsive-logo {
+    display: none;
+}
+@media (max-width: 800px) {
+    .home-logo {
+        display: none;
+    }
+    .home-responsive-logo {
+        display: block;
+        position: fixed;
+        top: 50%;
+        right: 50%;
+        margin-top: -45px;
+        margin-right: -100px;
+        width: 250px;
+        height: 90px;
+        background-image: url("../img/logo.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
